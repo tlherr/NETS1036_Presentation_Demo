@@ -60,6 +60,13 @@ Q STRING \$driveEject = New-Object -comObject Shell.Application
 Q ENTER
 Q STRING \$driveEject.Namespace\(17\).ParseName\(\"\$driveLetter\"\).InvokeVerb\(\"Eject\"\)
 Q ENTER
+
+
+# 
+
+
+
+
 Q DELAY 500
 Q STRING EXIT
 Q ENTER
